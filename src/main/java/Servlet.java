@@ -22,29 +22,30 @@ public class Servlet extends HttpServlet{
                 "\n" +
                 "<HR>\n" +
                 "\n" +
-                "<a href=\"http://somegreatsite.com\">Link Name</a>\n" +
+                "<a href=\"https://www.linkedin.com/in/abdullah-rehman-05622b198/\">Link Name</a>\n" +
                 "\n" +
                 "is a link to another nifty site\n" +
                 "\n" +
-                "<H1>This is a Header</H1>\n" +
+                "<H1>My name is Abdullah</H1>\n" +
                 "\n" +
-                "<H2>This is a Medium Header</H2>\n" +
+                "<H2>I am a bioengineer</H2>\n" +
                 "\n" +
-                "Send me mail at <a href=\"mailto:support@yourcompany.com\">\n" +
+                "Send me mail at <a href=\"mailto:ayr18@ic.ac.uk\">\n" +
                 "\n" +
-                "support@yourcompany.com</a>.\n" +
+                "ayr18@ic.ac.uk</a>.\n" +
                 "\n" +
-                "<P> This is a new paragraph!\n" +
+                "<P>Feel free to hit me up!\n" +
                 "\n" +
-                "<P> <B>This is a new paragraph!</B>\n" +
+                "<P> <B>Lets have some fun!</B>\n" +
                 "\n" +
-                "<BR> <B><I>This is a new sentence without a paragraph break, in bold italics.</I></B>\n" +
+                "<BR> <B><I>This is my first hosted website</I></B>\n" +
                 "\n" +
                 "<HR>\n" +
                 "\n" +
                 "</BODY>\n" +
                 "\n" +
                 "</HTML>");
+
     }
 
     @Override
