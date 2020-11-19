@@ -2,6 +2,7 @@ import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
+import java.util.stream.Collectors;
 
 @WebServlet(urlPatterns ={"/patients"}, loadOnStartup = 1)
 public class Servlet extends HttpServlet{
@@ -50,6 +51,9 @@ public class Servlet extends HttpServlet{
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String reqBody=req.getReader().lines().collect(Collectors.joining(System.lineSeparator()));
+        resp.setContentType("text/html");
+        resp.getWriter().write("Thank you client! "+reqBody);
 
     }
 
